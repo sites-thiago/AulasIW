@@ -1,19 +1,43 @@
   * {
-  	box-sizing: border-box;
+    box-sizing: border-box;
 	}
 
 	body {
   	margin: 0;
   	font-family: Arial;
-  	padding: 10px;
+    padding: 0;
   	background: #F0FFFF;
-	}
+	} 
 
-	h2 {
- 	text-align: center;
-  	text-transform: uppercase;
-  	color: #000000;
-	}
+  .h2 {
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+    font-size: 1.2em;
+  }
+
+  p, h3 {
+    padding: 5px;
+
+  }
+
+  .h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 20px;
+  }
+
+  .p {
+    padding-bottom: 10px;
+  }
+
+  .p2 {
+    text-align: center;
+    padding-left: 450px;
+    padding-right: 450px;
+    font-size: 1.05em;
+  }
 
 	.header {
   	background-image: url("../img/binaria.jpg");
@@ -21,7 +45,19 @@
   	padding: 20px;
   	text-align: center;
     color: white;
+    font-size: 2em;
 	}
+
+  .header2 {
+    background-image: url("../img/js.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f2e21b;
+    padding: 160px;
+    text-align: center;
+    color: white;
+  }
+
 
   .topnav {
   overflow: hidden;
@@ -45,8 +81,37 @@
 	.column {
   	float: left;
   	width: 100%;
-  	padding: 15px;
+  	padding: 10px;
 	}
+
+  .column2 {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    text-align: center; 
+  }
+
+  .column3 {
+    float: left;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .column4 {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    padding-right: 70px; 
+    padding-left: 70px;
+    text-align: center; 
+  }
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
 
 	.row:after {
   	content: "";
@@ -54,11 +119,6 @@
   	clear: both;
 	}
 
-	@media screen and (max-width:600px) {
-  	.column {
-    	width: 100%;
-  	}
-  }
 
 	div.static {
   	position: static;
@@ -66,22 +126,32 @@
   	background-color: #DCDCDC;
 	}
 
-	.footer {
-  	background-color: #F0FFFF;
-  	padding: 10px;
-  	text-align: center;
+	.conf {  
+    margin: 0 auto;
+    padding: 50px;
+    font-size: 3.5em;
+    text-align: center;
 	}
 
-	ul {
-  	list-style-type: none;
+  .conf2 {
+    padding: 10px;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .flutu {
+    float: left;
+  }
+  .flutu2 {
+    float: right;
+  }
+
+	.ul {
+  	list-style-type: circle;
   	margin: 0;
   	padding: 0;
   	overflow: hidden;
   	background-color: #333;
-	}
-
-	li {
-  	float: left;
 	}
 
 	li a, .dropbtn {
@@ -90,6 +160,7 @@
   	text-align: center;
   	padding: 14px 16px;
   	text-decoration: none;
+
 	}
 
 	li a:hover, .dropdown:hover .dropbtn {
@@ -118,18 +189,34 @@
   	text-align: left;
 	}
 
-	.dropdown-content a:hover {color: #FFFFFF; background-color: #DC143C;}
+	.insta a:hover {color: #FFFFFF; background-color: #DC143C; width: 100%;}
 
-	.dropdown-content2 a:hover {color: #FFFFFF; background-color: #00BFFF;}
+	.twitter  a:hover {color: #FFFFFF; background-color: #00BFFF; width: 100%;}
+
+  .gmail a:hover {color: #FFFFFF; background-color: #33cc33; width: 100%;}
+
 
 	.dropdown:hover .dropdown-content {
   	display: block;
 	}
 
-	img {
+  
+  .img { 
     float: right;
     max-width: 100%;
     height: auto;
+  }
+
+  .img2 {
+    max-width: 100%;
+    height: auto;
+
+  }
+
+  .borda {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
   }
 
   div.sticky {
@@ -138,3 +225,50 @@
   top: 0;
   background-color: #F0FFFF;
   }
+
+  .alinhamento {
+    text-align: center;
+  }
+
+  footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+    background-color: #333;
+  }
+    
+   ol.lista {
+  list-style-type: lower-alpha;
+}
+
+  .clock {
+    text-align: center;
+    background-color: white;
+    font-size: 2em;
+    border: 2px solid black;
+    border-width: 100%;
+  }
+
+  .lista2 {
+    text-align: center;
+    padding-left: 450px;
+    padding-right: 450px;
+    font-size: 1.05em;
+  }
+
+  table, td, th {
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+  }
+
+  table {
+    width: 50%;
+    border-collapse: collapse;
+  }
+
+  th {
+  padding: 20px;
+}

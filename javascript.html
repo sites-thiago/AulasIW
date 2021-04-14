@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Java script</title>
+</head>
+
+<script >
+  	function showtime() {
+  		var time = new Date ();
+  		var hour = time.getHours();
+  		var minute = time.getMinutes();
+  		var second = time.getSeconds();
+
+  		if (hour<10) hour = "0"+hour;
+  		if (minute<10) minute = "0"+minute;
+  		if (second<10) second = "0"+second;
+  		var tempo = hour+":"+minute+":"+second;
+
+  		document.getElementById("timer").innerHTML=tempo;
+  	}
+  	function initTime() {
+  		setInterval(showtime, 1000);
+  	}
+
+  </script>
+
+<style> body {background: #ffffb3;} </style>
+<body onload="initTime();">
+	<div class="header2"></div>
+
+  <div class="topnav">
+    <ul>
+      <li>
+        <a href="index.html">⬅ voltar</a>
+ 	  </li>
+    </ul>
+  </div>
+  <h2 class="conf2">O que é o java?</h2>
+
+  <div class="row">
+  	 <div class="column">
+  		<div class="p2">
+  			<p>O JavaScript é geralmente um código simplesmente agregado em uma página ou um arquivo . js externo que é inserido em um domínio através de um upload de arquivo. JS é uma linguagem criada para servir ao usuário, o que significa que o script dela é baixado na máquina dos visitantes e processado lá mesmo.</p>
+  			<p>O JavaScript é uma linguagem de programação utilizada principalmente em páginas web, com ele, você pode mostrar mensagens e outras informações interessantes, fazer verificações ou mudar dinamicamente a apresentação visual das páginas, conforme o comportamento que você deseja que sua página web possua.</p>
+  		</div>
+  	 </div>
+  </div>
+  <h2 class="conf2">Exemplo de um java script:</h2>
+  <p class="h2">Relógio em tempo real</p>
+  <div class="clock"><span id="timer"></span></div>
+  <br>
+
+  <div class="topnav">
+  <a></a>
+  </div>
+  <br>
+  <h2 class="conf2"> HTML, CSS e Java</h2>
+  <br>
+  <ul class="p2">
+  	<li>
+  		<p><strong>1. HTML:</strong>
+  		linguagem de marcação utilizada para estruturar os elementos da página, como parágrafos, links, títulos, tabelas, imagens e até vídeos.</p>
+  	</li>
+  </ul>
+  <br>
+  <ul class="p2">
+  	<li>
+  		<strong>2. CSS:</strong>
+  		linguagem de estilos utilizada para definir cores, fontes, tamanhos, posicionamento e qualquer outro valor estético para os elementos da página.
+  	</li>
+  </ul>
+  <br>
+  <ul class="p2">
+  	<li>
+  		<strong>3. Javascript:</strong>
+  		linguagem de estilos utilizada para definir cores, fontes, tamanhos, posicionamento e qualquer outro valor estético para os elementos da página.
+  	</li>
+  </ul>
+  <br>
+   <center>
+  	<img src="img/represent.png" class="borda">
+  </center>
+  <br>
+  <center>
+  <table>
+  <tr>
+    <th>HTML</th>
+    <th>CSS</th>
+    <th>Javascript</th>
+  </tr>
+  <tr>
+    <td>O HTML é a base da programação</td>
+    <td>O que dá estilo a todos os códigos</td>
+  	<td>É o que faz animações e ações aos códigos</td>
+  </tr>
+  <tr>
+    <td>O corpo do texto</td>
+    <td>Como se fosse a roupa que utiliza</td>
+    <td>O que dá a vida ao conteúdo</td>
+  </tr>
+  <tr>
+  	<td>Versão atual é o HTML 5</td>
+  	<td>Versão atual é o CSS 3.0</td>
+  	<td>Versão atual é o Javascript 2.0</td>
+  </tr>
+  </table>
+  </center>
+  <br>
+
+  <footer>
+
+  <p>Contato: </p>
+  <ul>
+  <li class="insta"> <a href="https://instagram.com/thi_fritass?igshid=1d696woz9gqet">Instagram</a>  </li>
+  <li class="twitter"> <a href="https://twitter.com/TFritass?s=08">Twitter</a></li>
+  <li class="gmail"> <a href="mailto:thioliveirafreitas@gmail.com"> Gmail </a></li>
+  </div>
+  </ul>
+  </footer>
+</body>
+</html>

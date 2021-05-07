@@ -61,13 +61,13 @@
 
   .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #0869A6;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -154,6 +154,13 @@
   	background-color: #333;
 	}
 
+  .ul2 {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0869A6;
+  }
+
 	li a, .dropbtn {
   	display: inline-block;
   	color: white;
@@ -168,38 +175,11 @@
     color: #000000;
 	}
 
-	li.dropdown {
-  	display: inline-block;
-	}
-
-	.dropdown-content {
-  	display: none;
-  	position: absolute;
-  	background-color: #f9f9f9;
-  	min-width: 160px;
-  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  	z-index: 1;
-	}
-
-	.dropdown-content a {
-  	color: black;
-  	padding: 12px 10px;
-  	text-decoration: none;
-  	display: block;
-  	text-align: left;
-	}
-
 	.insta a:hover {color: #FFFFFF; background-color: #DC143C; width: 100%;}
 
 	.twitter  a:hover {color: #FFFFFF; background-color: #00BFFF; width: 100%;}
 
   .gmail a:hover {color: #FFFFFF; background-color: #33cc33; width: 100%;}
-
-
-	.dropdown:hover .dropdown-content {
-  	display: block;
-	}
-
   
   .img { 
     float: right;
@@ -235,7 +215,15 @@
     padding-bottom: 25px;
     text-align: center;
     color: white;
-    background-color: #333;
+    background-color: #0869A6;
+  }
+
+  .centralizar{
+    position: absolute;
+    top: 50%;
+    color: white;
+    width: 20%;
+    text-align: center;
   }
     
    ol.lista {
@@ -248,13 +236,6 @@
     font-size: 2em;
     border: 2px solid black;
     border-width: 100%;
-  }
-
-  .lista2 {
-    text-align: center;
-    padding-left: 450px;
-    padding-right: 450px;
-    font-size: 1.05em;
   }
 
   table, td, th {

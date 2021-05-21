@@ -1,122 +1,33 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Primeiro Site</title>
-  <link rel="shortcut icon" href="img/favicon.png">
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
+	<title>Culinária Online</title>
+  	<link rel="shortcut icon" href="img/culinaria_online(favicon).png">
+ 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
+	<header class="stick">
+		<nav class="menu-opcoes">
+			<h1><img src="img/culinaria_online(logo).png"></h1>
+			<input type="checkbox" id="checkbox-menu">
+			<label for="checkbox-menu" class="hamburguer">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Receitas</a></li>
+				<li><a href="#">Sobre</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
 
-<div class="header">
-  <h1>Introdução ao HTML e CSS</h1>
-</div>
-
-<div class="topnav">
-	<div class="sticky">
-    <ul class="ul2">
-      <li class="flutu"><img src="img/MUNDOdigitalTRANSP.png"></li>
-      <li class="flutu2"><a href="#">Página Inicial</a></li>
-      <li class="flutu2"><a href="https://www.etecmcm.com.br/" target="_blank">Site Etec</a></li>
-      <li class="flutu2"><a href="javascript.html" target="_blank">Java script</a></li>
-    </ul>
-  </div>
-</div>
-
-<div class="row">
-  <div class="column">
-  	<div class="static">
-      <h2 class="h2">O que é HTML?</h2>
-      <div class="p">
-        <p>HTML (Hyper Text Markup Language) é uma Linguagem de Marcação de Hipertexto utilizada para criação de páginas da Web. Essa é a linguagem que o seu navegador (Browser) decodifica para exibir as páginas.</p>
-        <p>Hipertexto pode ser definido como todo o conteúdo o qual se encontra inserido em um documento para a web, sendo que sua principal característica seria a possibilidade de se interligar a outros documentos também na web.</p>
-        <p>O HTML é baseado no conceito de Hipertexto. Hipertexto são conjuntos de elementos – ou nós – ligados por conexões. Estes elementos podem ser palavras, imagens, vídeos, áudio, documentos etc.</p>
-        <p>Com a linguagem HTML é possível desenvolver toda a estruturação do conteúdo da mesma (título, subtítulo, posicionamento de imagens, tabelas, etc).</p>
-        <p>As páginas criadas em html são visualizadas pelos navegadores​.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="static">
-      <h2 class="h2">O que é CSS?</h2>
-      <div class="p">
-        <p>CSS (Cascading Style Sheets — Folhas de Estilos em Cascata) é uma extensão da HTML, uma linguagem de estilo, ou seja, fazendo o uso dessa linguagem é possível definir como o conteúdo dos elementos HTML serão apresentados na página da Web. Essa extensão foi incorporada à linguagem HTML a partir de sua quarta versão em 1997.</p>
-	     <p>O CSS3 é a segunda versão da linguagem CSS.</p>
-       <p>Separar o conteúdo do documento HTML de sua formatação.</p> 
-      </div>
-	  </div>
-  </div>
-</div>
-
-<div class="header">
-	<h1>Evolução do HTML</h1>
-</div>
-<div class="topnav">
-  <a></a>
-</div>
-
-<div class="row">
-  <div class="column">
-  	<div class="static">
-
-  	<img src="img/htmlevo.png" alt="Html evolução" class="img">
-  	<h2 class="h2">Surgimento do HTML</h2>
-    <div class="p">
-  	<p>Pode-se afirmar que o HTML teve o seu surgimento no início da década de 90. E que entre 1990 e 1995, passou por várias atualizações e modificações em sua estrutura.</p>
-    <p> Até 1995 quem supervisionava e controlava o padrão da linguagem era o próprio CERN. Desse ano em diante, a W3C (The World Wide Web Consortium), uma entidade que regula os padrões da Web, tomou para si a sua supervisão e controle.</p>
-    <h3>Versões do HTML</h3>
-    <h3>Versão 2.0 – 1995</h3>
-    <p>A primeira versão que surgiu depois da criação do HTML puro, foi a 2.0. O seu objetivo era formalizar todas as características HTML que já eram utilizadas. A sua aparição ocorreu no primeiro evento mundial sobre a Web, denominado como World Wide Web Conference.</p>
-    <h3>Versão 3.2 – 1997</h3>
-    <p>Além de corrigir problemas de compatibilidade da versão 2.0, esta versão da linguagem propiciou a criação de tabelas, applets e texto flutuante ao redor de imagens.
-    </p>
-    <h3>Versão 4.01 – 1999</h3>
-    <p>Sua característica era fornecer compatibilidade com as versões anteriores, mas também acrescentar suporte para opções multimídias, folha de estilos e melhorar as práticas de programação.
-    </p>
-    <h3>Versão HTML 5 – 2014</h3>
-    <p>A última versão do HTML foi desenvolvida para aperfeiçoar a experiência da World Wide Web para os desenvolvedores e usuários finais. O HTML 5 fornece o suporte de áudio e vídeo em alto nível que não existia nas versões anteriores.</p>
-    </div>
-	</div>
-  </div>
-</div>
-
-<div class="header">
-	<h1>Curiosidades</h1>
-</div>
-<div class="topnav">
-  <a href="#">	</a>
-</div>
-
-<div class="row">
-  <div class="column2">
-  	<div class="static">
-      <div class="p">
-    <p> Uma curiosidade a respeito da evolução do HTML é que em um workshop da W3C em 2004 as empresas Mozila e Opera apresentaram uma proposta para evolução do HTML4 para o HTML5, mas a W3C se recusou a dar continuidade a essa ideia.</p>
-      </div>
-	</div>
-  </div>
-
-  <div class="column2">
-  	<div class="static">
-      <div class="p">
-    <p> Mas pouco tempo depois, as empresas Fundação Mozila, Apple e Opera anunciaram a criação de uma organização que visava a evolução do HTML, tal organização foi denominada WHATWG, a qual passou a desenvolver a linguagem XHTML.</p>
-      </div>
-  </div>
-  </div>
-</div>
-
-<footer>
-  <ul>
-  <p>Contato: </p>
-  <li class="insta"> <a href="https://instagram.com/thi_fritass?igshid=1d696woz9gqet" target="_blank">Instagram</a>  </li>
-  <li class="twitter"> <a href="https://twitter.com/TFritass?s=08" target="_blank">Twitter</a></li>
-  <li class="gmail"> <a href="mailto:thioliveirafreitas@gmail.com" target="_blank"> Gmail </a></li>
-  </div>
-  </ul>
-</footer>
 </body>
 </html>
